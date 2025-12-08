@@ -1,0 +1,13 @@
+# IDE
+.idea
+
+# ENV
+venv
+
+# Package
+dist
+
+# Tests
+.coverage
+.pytest_cache
+.cov_html
