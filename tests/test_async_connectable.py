@@ -4,7 +4,7 @@ from unittest import mock
 
 import pytest
 
-from connectable import AsyncClosable, AsyncConnectable, AsyncResourceManager, AsyncConnectionManager
+from connectable import AsyncClosable, AsyncConnectable, AsyncConnectionManager, AsyncResourceManager
 
 
 class TestAsyncClosable:
