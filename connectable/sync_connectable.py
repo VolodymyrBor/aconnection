@@ -47,6 +47,10 @@ class ConnectionManager[T](ResourceManager, abc.ABC):
         super().__init__()
         self._connection: T | None = None
 
+    @property
+    def connected(self) -> bool:
+        return self._connection is not None
+
     @override
     def connect(self):
         if self._connection is not None:

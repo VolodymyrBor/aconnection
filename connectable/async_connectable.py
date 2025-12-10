@@ -49,6 +49,10 @@ class AsyncConnectionManager[T](AsyncResourceManager, abc.ABC):
         self._connection: T | None = None
         self._lock = asyncio.Lock()
 
+    @property
+    def connected(self) -> bool:
+        return self._connection is not None
+
     @override
     async def connect(self):
         async with self._lock:
