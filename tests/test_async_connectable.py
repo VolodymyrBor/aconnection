@@ -100,6 +100,7 @@ class TestAsyncConnectionManager:
     async def test_context(self):
         async with self._ConnectionManager() as connection_manager:
             assert connection_manager._connected_conn == 1
+            assert connection_manager.connected
         assert connection_manager._connection is None
 
     def test_access_to_not_created_connection(self):

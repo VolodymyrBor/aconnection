@@ -99,6 +99,7 @@ class TestConnectionManager:
     def test_context(self):
         with self._ConnectionManager() as connection_manager:
             assert connection_manager._connected_conn == 1
+            assert connection_manager.connected
         # pyrefly: ignore [unnecessary-comparison]
         assert connection_manager._connection is None
 
