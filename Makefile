@@ -1,14 +1,14 @@
 
 ruff:
-	poetry run ruff check ./connected ./tests
+	poetry run ruff check ./aconnection ./tests
 
 
 pyrefly:
-	poetry run pyrefly check ./connected ./tests
+	poetry run pyrefly check ./aconnection ./tests
 
 
 tests:
-	poetry run pytest ./tests -vv ./tests ./connected \
+	poetry run pytest ./tests -vv ./tests ./aconnection \
 	--cov ./iter_model --cov-branch --cov-fail-under=100
 
 

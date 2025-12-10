@@ -3,7 +3,7 @@ from unittest import mock
 
 import pytest
 
-from connected import Closable, Connectable, ConnectionManager, ResourceManager
+from aconnection import Closable, Connectable, ConnectionManager, ResourceManager
 
 
 class TestClosable:
