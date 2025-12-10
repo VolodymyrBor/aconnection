@@ -1,4 +1,4 @@
-# Connected
+# aconnection
 
 [![Supported Versions](https://img.shields.io/badge/coverage-100%25-green)](https://shields.io/)
 [![Supported Versions](https://img.shields.io/badge/poetry-✅-grey)](https://shields.io/)
@@ -7,7 +7,7 @@
 
 ---
 
-**connected** - providers the following abc classes:
+**aconnection** - providers the following abc classes:
 - Sync:
   - Closeable
   - Connectable
