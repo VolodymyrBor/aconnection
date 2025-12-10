@@ -1,12 +1,17 @@
 [project]
 name = "aconnection"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "connectable providers ABC clasess for connections"
 authors = [
     {name = "volodymyrb",email = "volodymyr.borysiuk0@gmail.com"}
 ]
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.13"
+homepage = "https://github.com/VolodymyrBor/aconnection"
+repository = "https://github.com/VolodymyrBor/aconnection"
+keywords = ["connection", "open", "close", 'async']
+
 dependencies = [
 ]
 
